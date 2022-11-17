@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="easter">
+        <h1>Easter sunday date generator</h1>
+        <div class="res">
+            <p id="date"></p>
+        </div>
+        <form>
+            <h1>Enter a year</h1>
+            <input type="number" id="easter-year" placeholder="Enter date between 1810 and 3000" max="3000" min="1810">
+            <h1 id="year-title">Choose output format</h1>
+            <div class="formats">
+                <label for="">
+                    dd/mm/year
+                    <input type="radio" name="format-choice" id="numeric" checked>
+                </label>
+                <label for="">
+                    verbose
+                    <input type="radio" name="format-choice" id="verbose">
+                </label>
+                <label for="">
+                    both
+                    <input type="radio" name="format-choice" id="both">
+                </label>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
